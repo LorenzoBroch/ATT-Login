@@ -1,0 +1,32 @@
+#ImagemPerfil {
+    height: 15vmax;
+    margin-left: 8vmax;
+}
+
+.container {
+    margin-top: 10vmax;
+}
+
+form {
+    display: grid;
+    margin: 5vmin;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#BaseLogin {
+    margin-top: 2vmax;
+    background-color: rgb(240, 239, 239);
+    border-style: solid;
+    border-radius: 3vmin;
+    border-width: 1vmin;
+    border-color:black;
+    button {
+        border-radius: 1vmin;
+        background-color:rgb(240, 10, 125);
+        color: white;
+    }
+}
