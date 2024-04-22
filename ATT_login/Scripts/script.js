@@ -7,7 +7,7 @@ function login() {
     var nome = document.getElementById('nome').value
     var senha = document.getElementById('senha').value
     
-    if((usuario.nome == nome) && (usuario.senha == senha)) {
+    if((usuario.nome == nome) && (usuario.senha == senha)) { //se o nome e a senha no HTML for igual ao valor do atributo "usuario" ele vai autenticar
         alert("autenticado")
         window.location.pathname = "/pagina2.html" //window.location.pathname para mudar a página e redirecionar a partir do nome da pagina'
     } else {
