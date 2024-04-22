@@ -17,7 +17,7 @@ function login() {
         
     }
 }
-function mostrarResultado() { //pego o elemento do ID de "usuarioNome" na pagina 2 e atribuo ele ao nome e a senha do usuario
+function mostrarResultado() {  //pego o elemento do ID de "usuarioNome" na pagina 2 e atribuo ele ao nome e a senha do usuario
     document.getElementById("usuarioNome").innerHTML = usuario.nome;
     document.getElementById("usuarioSenha").innerHTML = usuario.senha;
 }
